@@ -2,7 +2,7 @@
     <header class="container-fluid h-custom">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-12 col-md-6">
-                <h1 class="text-center">Videogioco</h1>
+                <h1 class="text-center">Videogame</h1>
             </div>
         </div>
     </header>
@@ -19,8 +19,13 @@
     
     <div class="container-fluid">
         <div class="row justify-content-center">
+            <div class="col-12">
+                <h4 class="text-center">Parlami del tuo Videogioco preferito!</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
             <div class="col-12 col-md-6">
-                <form class="rounded-3 shadow bg-success p-3" method="POST" action="{{route('videogame')}}" enctype="multipart/form-data">
+                <form class="rounded-3 shadow bg-success p-3" method="POST" action="{{route('videogioco.submit')}}" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome</label>
                         <input name="name" type="text" value="{{old('name')}}" class="form-control" id="name">
