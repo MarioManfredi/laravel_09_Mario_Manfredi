@@ -15,6 +15,7 @@ class Servizi extends Model
         'name',
         'genere',
         'produttore',
-        'messaggio'
+        'messaggio',
+        'img',
     ];
 }

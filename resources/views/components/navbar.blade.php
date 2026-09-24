@@ -10,6 +10,9 @@
           <a class="nav-link" aria-current="page" href="{{route('homepage')}}">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="{{route('videogameCreate')}}">Aggiungi commento</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="{{route('show')}}">Servizi</a>
         </li>
       </ul>
