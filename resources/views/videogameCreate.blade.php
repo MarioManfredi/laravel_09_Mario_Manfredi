@@ -26,6 +26,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-6">
                 <form class="rounded-3 shadow bg-success p-3" method="POST" action="{{route('videogioco.submit')}}" enctype="multipart/form-data">
+                    @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome</label>
                         <input name="name" type="text" value="{{old('name')}}" class="form-control" id="name">
